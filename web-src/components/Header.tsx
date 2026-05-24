@@ -4,6 +4,7 @@
  */
 
 import { Binary, ShieldCheck, HelpCircle } from "lucide-react";
+import stegocryptfLogo from "../img/stegocryptf_logo.png";
 
 interface HeaderProps {
   activeTab: string;
@@ -16,8 +17,8 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         {/* Brand Logo and Title */}
         <div className="flex items-center gap-3">
-          <div className="p-2.5 bg-gradient-to-tr from-blue-600 to-blue-400 rounded-xl text-white shadow-lg shadow-blue-500/20">
-            <Binary id="logo-icon" className="w-5 h-5 stroke-[2.25]" />
+          <div className="w-11 h-11 bg-zinc-950/60 border border-zinc-800 rounded-xl flex items-center justify-center p-1.5 shadow-md">
+            <img id="logo-image" src={stegocryptfLogo} alt="StegoCryptF Logo" className="w-full h-full object-contain rounded-lg" />
           </div>
           <div>
             <h1 id="app-title" className="text-xl font-sans font-bold tracking-tight text-white flex flex-col sm:flex-row sm:items-start sm:items-center gap-1.5 sm:gap-2">
