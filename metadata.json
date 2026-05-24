@@ -1,0 +1,6 @@
+{
+  "name": "Steganografi Piksel",
+  "description": "Aplikasi steganografi LSB modern 100% client-side untuk menyembunyikan dan mengekstrak pesan rahasia di dalam pixel gambar dengan enkripsi enkripsi AES.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
